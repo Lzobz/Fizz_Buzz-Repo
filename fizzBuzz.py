@@ -1,13 +1,9 @@
-numbers = range(101)
-for n in numbers:
-    if n % 5 == 0 and n % 3 == 0:
-        n=("fizzbuzz")
-        print (n)
+for n in range(1,101):
+    if n % 3 == 0 and n % 5 == 0:
+        print("FizzBuzz")
     elif n % 3 == 0:
-        n=("fizz")
-        print (n)
+        print("Fizz")
     elif n % 5 == 0:
-        n=("buzz")
-        print (n)
+        print("Buzz")
     else:
-        print (n)
+        print(n)
