@@ -1,3 +1,4 @@
+
 #sets range for the numbers
 for n in range(101):
     #logic of printing FizzBuzz for numbers divisible by 5 and 3
@@ -10,5 +11,3 @@ for n in range(101):
     elif n % 5 == 0:
         print("Buzz")
     #prints all other numbers
-    else:
-        print(n)
